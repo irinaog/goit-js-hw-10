@@ -23,16 +23,13 @@ ul{
   margin-bottom: 16px;
 }
 
-.flag{
-  width: 20px;
-  height: auto;
-}
 
+/*=================country-block=======================*/ 
 .bigflag{
   width: 200px;
   height: auto;
   display: block;
-  padding-left:40px;
+  /* padding-left:0px; */
 }
 
 .country-info{
@@ -40,8 +37,36 @@ ul{
 }
 
 .country-info__name{
-padding-left: 40px;
+  margin: 0;
+/* padding-left: 0px; */
 }
+
+.country{
+  margin: 0;
+  padding-left: 0;
+}
+
+
+/* =================country-list======================= */
+
+.country-list{
+  padding-left: 0px;
+}
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  width: 30px;
+}
+.country-list__name{
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+
 
 
 
